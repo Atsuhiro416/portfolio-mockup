@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>うまみっけ ユーザーページ</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/user/user.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+  <header class="flex between">
+    <div class="header-left">
+      <a href="home.html">
+        <h1>うまみっけ</h1>
+      </a>
+    </div>
+    <div class="header-right flex aruond">
+      <div class="header-icon">
+        <a href="history.html">
+          <i class="fas fa-history fa-3x history-color"></i>
+          <p>閲覧履歴</p>
+        </a>
+      </div>
+      <div class="header-icon">
+        <a href="favorite.html">
+          <i class="fas fa-star fa-3x star-color"></i>
+          <p>お気に入り</p>
+        </a>
+      </div>
+      <div class="header-icon">
+        <a href="">
+          <i class="fas fa-user-circle fa-3x user-color"></i>
+          <p>ユーザー</p>
+        </a>
+      </div>
+    </div>
+    <input type="checkbox" id="menu-btn-check">
+    <div id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="menu-content">
+      <ul class="menu-content_inner">
+        <li><a href="#">アカウント情報</a></li>
+        <li><a href="favorite.html">お気に入り一覧</a></li>
+        <li><a href="history.html">閲覧履歴</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <h2>アカウント情報</h2>
+    <p>メールアドレス：example@example.com</p>
+    <a href="update-password.html"><button>パスワードを再設定</button></a>
+  </div>
+</body>
+</html>

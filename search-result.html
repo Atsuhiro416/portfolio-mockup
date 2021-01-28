@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>うまみっけ 検索結果</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/home/home.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+</head>
+<body>
+  <header class="flex between">
+    <div class="header-left">
+      <a href="home.html"><h1>うまみっけ</h1></a>
+    </div>
+    <div class="header-right flex aruond">
+      <div class="header-icon">
+        <a href="history.html">
+          <i class="fas fa-history fa-3x history-color"></i>
+          <p>閲覧履歴</p>
+        </a>
+      </div>
+      <div class="header-icon">
+        <a href="favorite.html">
+          <i class="fas fa-star fa-3x star-color"></i>
+          <p>お気に入り</p>
+        </a>
+      </div>
+      <div class="header-icon">
+        <a href="user.html">
+          <i class="fas fa-user-circle fa-3x user-color"></i>
+          <p>ユーザー</p>
+        </a>
+      </div>
+    </div>
+    <input type="checkbox" id="menu-btn-check">
+    <div id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="menu-content">
+      <ul class="menu-content_inner">
+        <li><a href="user.html">アカウント情報</a></li>
+        <li><a href="favorite.html">お気に入り一覧</a></li>
+        <li><a href="history.html">閲覧履歴</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href=""><img src="img/sushi.jpg" alt="Swiper01"></a>
+      </div>
+      <div class="swiper-slide">
+        <a href=""><img src="img/niku.jpg" alt="Swiper02"></a>
+      </div>
+      <div class="swiper-slide">
+        <a href=""><img src="img/bar.jpg" alt="Swiper03"></a>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div> -->
+  <h2>検索結果</h2>
+  <form class="search" action="">
+    <input type="search" placeholder="探す">
+    <i class="fas fa-search fa-2x search-color"></i>
+  </form>
+  <div class="store-lists flex around flex-wrap">
+    <a href="">
+      <div class="store-card">
+        <div class="store-img">
+          <img src="img/washoku.jpg" alt="">
+        </div>
+        <p class="store-name">店名</p>
+        <p class="store-category">食のジャンル</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="store-card">
+        <div class="store-img">
+          <img src="img/washoku.jpg" alt="">
+        </div>
+        <p class="store-name">店名</p>
+        <p class="store-category">食のジャンル</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="store-card">
+        <div class="store-img">
+          <img src="img/washoku.jpg" alt="">
+        </div>
+        <p class="store-name">店名</p>
+        <p class="store-category">食のジャンル</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="store-card">
+        <div class="store-img">
+          <img src="img/washoku.jpg" alt="">
+        </div>
+        <p class="store-name">店名</p>
+        <p class="store-category">食のジャンル</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="store-card">
+        <div class="store-img">
+          <img src="img/washoku.jpg" alt="">
+        </div>
+        <p class="store-name">店名</p>
+        <p class="store-category">食のジャンル</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="store-card">
+        <div class="store-img">
+          <img src="img/washoku.jpg" alt="">
+        </div>
+        <p class="store-name">店名</p>
+        <p class="store-category">食のジャンル</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="store-card">
+        <div class="store-img">
+          <img src="img/washoku.jpg" alt="">
+        </div>
+        <p class="store-name">店名</p>
+        <p class="store-category">食のジャンル</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="store-card">
+        <div class="store-img">
+          <img src="img/washoku.jpg" alt="">
+        </div>
+        <p class="store-name">店名</p>
+        <p class="store-category">食のジャンル</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="store-card">
+        <div class="store-img">
+          <img src="img/washoku.jpg" alt="">
+        </div>
+        <p class="store-name">店名</p>
+        <p class="store-category">食のジャンル</p>
+      </div>
+    </a>
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: true
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true,
+        },
+      });
+  </script>
+</body>
+</html>
