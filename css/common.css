@@ -39,8 +39,8 @@ header {
 }
 .header-left {
   /* margin-top: 20px;
-  margin-left: 20px;
-  z-index: 1000; */
+  margin-left: 20px; */
+  z-index: 600;
 }
 .header-right {
   /* margin-top: 20px;

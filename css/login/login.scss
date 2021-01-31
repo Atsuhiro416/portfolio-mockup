@@ -83,6 +83,10 @@ input {
   }
   .header-left {
     margin: 30px auto;
+
+    h1 {
+      line-height: 40px;
+    }
   }
   .header-right {
     display: none;
