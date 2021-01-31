@@ -47,6 +47,7 @@ body {
 .store-container {
   width: 70vw;
   margin: 5vh auto;
+  padding-top: 100px;
 }
 
 .store-img {

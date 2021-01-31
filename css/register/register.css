@@ -7,6 +7,10 @@
   position: relative;
 }
 
+header {
+  background-color: transparent;
+}
+
 .header-right {
   width: 25vw;
 }
@@ -74,6 +78,15 @@ input {
   padding: 10px;
   border: 1px solid black;
   color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  .header-right {
+    width: 40%;
+  }
+  .card {
+    width: 30vw;
+  }
 }
 
 @media screen and (max-width: 768px) {

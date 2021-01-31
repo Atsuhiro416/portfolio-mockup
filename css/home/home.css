@@ -9,7 +9,7 @@ body {
 .header-icon p {
   text-align: center;
   font-size: 12px;
-  margin-top: 8px;
+  margin-top: 5px;
   color: #000;
 }
 
@@ -52,6 +52,7 @@ body {
 
 .swiper-wrapper {
   margin: 0 auto;
+  padding-top: 80px;
 }
 
 .swiper-slide img {
@@ -62,6 +63,7 @@ body {
 h2 {
   font-size: 200%;
   text-align: center;
+  padding-top: 150px;
 }
 
 .search {
